@@ -1,0 +1,42 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(#2570b6, #9198e5) no-repeat;
+    height: 100vh;
+}
+.tab-btn{
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    background: linear-gradient(#6478e6, #9198e5);
+}
+.btn{
+    color: white;
+    background: black;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    outline: orange;
+    border-radius: 10px;
+}
+.btn:hover{
+    background: rgb(15, 70, 143);
+    transition: .9s;
+}
+.tabs{
+    display: none;
+}
+.active{
+    background: rgb(36, 36, 126);
+}
+.active1{
+    display: block;
+}
+.tab-items{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.tab-text{
+    transition: .7s;
+    transform: perspective(20px);
+}
